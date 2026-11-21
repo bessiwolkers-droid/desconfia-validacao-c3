@@ -1,0 +1,16 @@
+
+ RUN  v3.2.7 /tmp/desconfia-candidate/frontend
+
+ ✓ src/api.test.js (7 tests) 12ms
+ ✓ src/validacao.test.jsx (5 tests) 1156ms
+   ✓ Validação dos campos de acesso > mostra mensagens por campo ao tentar entrar sem preencher  301ms
+ ✓ src/App.test.jsx (5 tests) 1882ms
+   ✓ Fluxos do Desconfia > impede cadastro quando as senhas são diferentes  340ms
+   ✓ Fluxos do Desconfia > analisa, mostra resultado, envia feedback e faz logout  643ms
+   ✓ Fluxos do Desconfia > mostra carregamento e erro sem inventar resultado  335ms
+   ✓ Fluxos do Desconfia > carrega histórico e exige confirmação para excluir  314ms
+
+ Test Files  3 passed (3)
+      Tests  17 passed (17)
+   Start at  23:12:52
+   Duration  4.42s (transform 310ms, setup 1.49s, collect 933ms, tests 3.05s, environment 3.53s, prepare 451ms)
